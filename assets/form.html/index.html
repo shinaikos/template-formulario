@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body class="center">
+    <form action="">
+        <div class="container">
+
+            <div class="col-1">
+                <label for="name">Nome Completo:</label >
+                <input type="text" name="name" placeholder="Nome Completo">
+                <label for="rg">RG:</label>
+                <input type="text" name="rg" placeholder="00.000.000-0">
+                <label for="Pai">Pai:</label>
+                <input type="text" name="Pai" placeholder="Nome do Pai">
+                <label for="Escolaridade">Escolaridade:</label>
+                <br>
+                <select name="Escolaridade" id="">
+                    <option value="">Selecione</option>
+                    <option value="">Minima</option>
+                    <option value="">Media</option>
+                    <option value="">Superior</option>
+                </select>
+                <br>
+                <label for="tel">Telefone:</label>     
+                <input type="text" name="tel" placeholder="(00) 00000-0000">
+                <label for="email">E-mail:</label>   
+                <input type="email" name="email" id="" placeholder="email@example.com">    
+            </div>
+            <div class="col-2">
+                <label for="nasci">Data de Nascimento</label>
+                <input type="date" name="nasci" id="" >
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="" placeholder="123.456.789.01">
+                <label for="mae">Mãe:</label>
+                <input type="text" name="mae" placeholder="Nome da Mãe">
+                <label for="profissao">Profissão:</label>
+                <input type="text" name="profissao" placeholder="Profissão">
+                <label for="cel">Celular:</label>
+                <input type="text" name="cel" placeholder="(00) 00000-0000">
+            </div>
+        </div>
+        <div class="buttons container">
+            <button class="btn">Cadastrar</button>
+            <button class="btn">Limpar Campos</button>
+        </div>
+    </form>
+</body>
+</html>

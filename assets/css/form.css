@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 478px;
+    display: flex;
+    align-items: flex-end;
+}
+input{
+    width: 100%;
+}
+input,select{
+    margin-top: 6px;
+    margin-bottom: 12px;
+    background-color: rgb(163, 248, 163);
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    padding: 4px;
+}
+input:focus, select:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(95, 95, 235);
+}
+
+
+.col-1, .col-2{
+    flex: 1;
+    padding: 20px;
+}
+.btn{
+    padding: 6px 12px;
+    border:none;
+    background-color: rgb(24, 110, 24);
+    margin: 12px;
+    color: #fff;
+}
+.btn:focus{
+    outline: none;
+}
+@media only screen and ( max-width:460px){
+    .container{
+        flex-direction: column;
+    }
+    .buttons{
+        align-items: center;
+    }
+    .btn{
+        width: 80%;
+    }
+}
