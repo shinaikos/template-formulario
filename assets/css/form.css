@@ -46,6 +46,11 @@ input:focus, select:focus {
 .btn:focus{
     outline: none;
 }
+.cabecalho{
+    height: 32px;
+    width: 100%;
+    background-color: rgb(10, 63, 10);
+}
 @media only screen and ( max-width:460px){
     .container{
         flex-direction: column;
